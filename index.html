@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title> Image Flow </title>
+</head>
+
+<body>
+
+    <div class="navContainer">
+        <div class="logo">
+            <a href="index.html">Image Flow</a>
+        </div>
+        <div class="navItems" id="navItems">
+            <ul>
+                <li><a href="index.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="full-image" id="fullImageBox">
+        <img src="images/1 (1).jpg" id="fullImage">
+        <span onclick="closeFullImage()">X</span>
+        <a id="downloadBtn" href="" download>
+            <button>Download</button>
+        </a>
+    </div>
+
+    <div class="image-gallery">
+        <img src="images/1 (1).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (4).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (5).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (6).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (7).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (8).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (9).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (11).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (13).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (14).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (15).jpg" onclick="openFullImage(this.src)">
+        <img src="images/1 (16).jpg" onclick="openFullImage(this.src)">
+        <img src="images/2 (1).jpg" onclick="openFullImage(this.src)">
+        <img src="images/2 (2).jpg" onclick="openFullImage(this.src)">
+        <img src="images/2 (3).jpg" onclick="openFullImage(this.src)">
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <p class="text"> This Website is Developed by Abdullah Memon &#128151 </p>
+            <p class="copyText"> &#169 Copyright 2025 all rights reserved to Developer</p>
+        </div>
+    </footer>
+
+    <script src="script.js"> </script>
+
+
+
+</body>
+
+</html>
